@@ -15,10 +15,12 @@
     }
   },
   "require": {
+    "symfony/http-client": "^7.2",
     "sensio/framework-extra-bundle": "^5.1",
     "symfony/expression-language": "^5.1|^6.0",
     "payum/payum-bundle": "^2.0",
     "symfony/uid": "^5.1|^6.0",
-    "php-http/guzzle6-adapter": "^2.0"
+    "guzzlehttp/guzzle": "^7.0",
+    "symfony/serializer-pack": "^1.3"
   }
 }
